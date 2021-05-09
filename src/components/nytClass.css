@@ -1,0 +1,40 @@
+
+#resultsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.articleCard {
+    width: 360px;
+    height: auto;
+    border: 2px solid lightgray;
+    
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+#submitBtn {
+    font-size: 1em;
+    margin: 5px;
+    font-weight: 700;
+}
+
+#submitBtn:hover {
+    background-color:blue;
+    color: white;
+}
+
+.pageBtn {
+    margin: 0 15px;
+}
+
+.articleKeyword {
+    list-style:none;
+    color: rgb(194, 16, 16);
+    font-size: .8em;
+    margin: 5px;
+    background-color: rgb(238, 235, 235);
+}
